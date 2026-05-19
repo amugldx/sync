@@ -245,22 +245,16 @@ export const metadata = {
 			'max-snippet': -1,
 		},
 	},
-	icons: {
-		icon: '/favicon.ico',
-		shortcut: '/favicon-16x16.png',
-		apple: '/apple-touch-icon.png',
-	},
-	manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({ children }) {
 	return (
 		<html
 			lang='en'
-			className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+			className={`relative ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
 			suppressHydrationWarning>
 			<body
-				className='min-h-full flex flex-col'
+				className='relative min-h-full flex flex-col'
 				suppressHydrationWarning>
 				{children}
 			</body>
