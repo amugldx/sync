@@ -63,7 +63,7 @@ export default function Hero() {
 					<h1 className='max-w-[1200px] font-bold text-white'>
 						{/* Mobile / tablet */}
 						<div className='block lg:hidden'>
-							<div className='text-[30px] leading-[1.1] sm:text-4xl'>
+							<div className='text-3xl leading-[1.1] sm:text-4xl'>
 								<span className='block whitespace-nowrap'>Synchroyst</span>
 							</div>
 

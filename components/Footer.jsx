@@ -39,7 +39,8 @@ export default function Footer() {
 					<div>
 						<h3 className='text-[20px] font-black'>Synchroyst</h3>
 						<p className='mt-3 max-w-md leading-7 text-white/85'>
-							Enterprise-grade growth engines for acquiring, serving, and retaining customers.
+							Synchroyst builds AI-powered growth systems for businesses seeking automation,
+							scalable marketing, and operational efficiency.
 						</p>
 					</div>
 
