@@ -59,14 +59,18 @@ export default function Footer() {
 							Contact
 						</p>
 
-						<div className='mt-3 flex items-center gap-2.5 text-white/90'>
-							<HiOutlineMail className='text-[18px] text-violet-200' />
-							<span>hello@synchroyst.pro</span>
+						<div
+							onClick={() => window.open('mailto:hello@synchroyst.pro')}
+							className='mt-3 flex items-center gap-2.5 text-white/90'>
+							<HiOutlineMail className='text-[18px] text-violet-200 cursor-pointer' />
+							<span className='cursor-pointer'>hello@synchroyst.pro</span>
 						</div>
 
-						<div className='mt-3 flex items-center gap-2.5 text-white/90'>
-							<HiOutlinePhone className='text-[18px] text-violet-200' />
-							<span>+1 404 446 0269</span>
+						<div
+							onClick={() => window.open('tel:+14044460269')}
+							className='mt-3 flex items-center gap-2.5 text-white/90'>
+							<HiOutlinePhone className='text-[18px] text-violet-200 cursor-pointer' />
+							<span className='cursor-pointer'>+1 404 446 0269</span>
 						</div>
 
 						<div className='mt-5 flex flex-wrap gap-[14px]'>
